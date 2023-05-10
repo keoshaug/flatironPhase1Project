@@ -1,4 +1,13 @@
 
 body {
-    background-color: aquamarine
+    background-color: aquamarine;
+}
+
+form {
+  text-align: right;
+}
+
+img {
+    height: auto;
+    width: 100%;
 }
