@@ -1,4 +1,4 @@
-# Flatiron School Phase 1 Project - Searchable Art Archive for the Art Institute of Chicago
+# Flatiron School Phase 1 Project - Searchable Archive for the Art Institute of Chicago
 also on CodePen: https://codepen.io/KevinShau/pen/GRYdXqp
 
 **Demo Video**
