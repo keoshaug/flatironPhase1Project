@@ -21,11 +21,21 @@ const renderImages = (dataArray) => {
         })
     }
 
+const fetchData = () => {
 
-fetch("https://api.artic.edu/api/v1/artworks")
-.then(response => response.json())
-.then(data => renderImages(data.data))
+    fetch("https://api.artic.edu/api/v1/artworks")
+    .then(response => response.json())
+    .then(data => renderImages(data.data))
+
+    fetch("https://raw.githubusercontent.com/keoshaug/open-access-is-great-but-where-are-the-images/main/1.data/chicago-images.csv")
+    .then(response => response.json())
+    .then(data => renderImages(data.data))
+
+}
+
+
+
 
 const click = document.querySelector("#click")
 
-//click.addEventListener("click", eventHandler)
+click.addEventListener("click", eventHandler)
