@@ -12,9 +12,12 @@ Year:		"date_display"
 */
 
 const renderImages = (dataArray) => {
-        console.log(dataArray)
+        const photoContainer = document.getElementsByClassName("input")
         dataArray.forEach(imageInfo => {
-            console.log(imageInfo)
+            const img = document.createElement("img")
+            img.src = imageInfo.image
+
+            photoContainer.appendChild(img)
         })
     }
 
